@@ -1,0 +1,25 @@
+{
+  "name": "dark-sols",
+  "version": "1.0.0",
+  "description": "A Phaser-based game with Solana integration",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "clean": "gh-pages-clean",
+    "deploy": "gh-pages -d public"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "nodemon": "^3.1.9"
+  },
+  "homepage": "https://superduperrusobear.github.io/FINAL"
+}
